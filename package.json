@@ -1,0 +1,26 @@
+{ "name": "pimatic-espeak",
+  "description": "Plugin to use espeak tts in pimatic",
+  "author": "Lukas Reinhart <reinhart.lukas@gmail.com>",
+  "main": "espeak",
+  "files": [
+    "espeak.coffee",
+    "README.md",
+    "espeak-config-schema.coffee"
+  ],
+  "version": "0.8.0",
+  "homepage": "http://github.com/thexperiments/pimatic-espeak",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thexperiments/pimatic-espeak.git"
+  },
+  "configSchema": "espeak-config-schema.coffee",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "pimatic": "0.8.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
